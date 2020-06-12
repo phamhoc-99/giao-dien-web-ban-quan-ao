@@ -1,0 +1,16 @@
+.header{
+    background: #DFF0D8;
+}
+.heading{color: #3C763D;}
+.item-content-1{
+    display: inline;
+}
+.line1{
+    display: inline-flex;
+}
+.time{
+    padding-left: 900px;
+}
+.btn-submit{
+    display: inline-block;
+}

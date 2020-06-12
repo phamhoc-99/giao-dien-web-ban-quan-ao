@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <meta charset="utf-8"/>
+
+    <link rel="stylesheet" href="css/1trangchu.css"/>   
+    <link rel="stylesheet" href="css/2timkiem.css"/> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css"/> 
+    <link rel="stylesheet" type="text/css" href="css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script src="js/Scripts của slick/jquery-1.10.2.js"></script>     <!-- 3 dòng này đúng thứ tự -->
+    <script src="js/Scripts của slick/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/Scripts của slick/slick.min.js"></script>
+
+<style>   /*phải style slick trong trang html này*/
+.slider {width: 100%;
+        margin: 0 auto;}
+
+.slick-dots li button:before {      
+            font-size: 20px;
+            color: white;
+            opacity: 0;}
+.slick-dots li.slick-active button:before {
+    opacity: 1;
+    color: white;}
+
+ul.slick-dots {
+    display: block;
+    position: absolute;
+    top: 950px;}
+.lazy img{                                          
+    max-height: 300px;
+    margin: 20px; 
+}
+.row{margin-right: 0px;}  /* lỗi làm thanh ngang khiến bực mình*/
+</style>     
+<!-- phần menu khi cuộn chuột -->
+  <script type="text/javascript">jQuery(document).ready(function($) {   
+  //selector đến menu cần làm việc
+  var TopFix = $("#fix");
+  // dùng sự kiện cuộn chuột để bắt thông tin đã cuộn được chiều dài là bao nhiêu.
+    $(window).scroll(function(){
+    // Nếu cuộn được hơn 150px rồi
+        if($(this).scrollTop()>150){                                              
+      // Tiến hành show menu ra   
+        TopFix.show();
+        
+         }
+        else{
+      // Ngược lại, nhỏ hơn 150px thì hide menu đi.
+            TopFix.hide();
+            
+        }})
+  })
+</script>
+
+<!--  phần menu khi cuộn chuột -->
+</head>
+<body>
+    <div id="fix" style="z-index: 10000;">
+<div class="header-scroll row ">
+  
+<div class="header-2 col-md-4">
+      <div class="timkiem-scroll"><form> <input type="text" placeholder="Tìm kiếm..."  name="scroll"></form></div>
+    </div>
+
+  <div class="header-2 col-md-4">
+    <div class="nuttim"><a href="2timkiem.html"> <i class="fa fa-search fa-scroll" aria-hidden="true"></i>               </a></div>
+    <div class="menu">
+      <ul style="display:flex; position:absolute;z-index: 100;   top:25px;" class="menucap1">
+        <li class="item1-hover"><a href="1trangchu.html" class="item1">TRANG CHỦ</a></li>
+        <li class="item1-hover"><a href="#"class="item1">BỘ SƯU TẬP</a>
+
+                   <ul style=" position: absolute; top: 25px;" class="menucap2">
+                    <li class="item2"><a href="3bst.html" style="text-decoration: none;color: white;">SPRING SUMMER JAN</a></li>
+                    <li class="item2"><a href="#"style="text-decoration: none;"><span >TET HOLIDAY 2018</span></a></li>
+                    <li class="item2"><a href="#"style="text-decoration: none;"><span >SUMMER COLLECTION</span></a>
+                        <!-- thẻ span dùng để giữ được màu chữ trắng hoặc dùng color:white; ở đằng trước nó là như nhau -->
+                       <ul style="position: absolute; top:86px;left: 209px;" class="menucap3"> 
+                         <li class="item2 item3"> <a href="#"style="text-decoration: none;"><span >SESSION 1</span></a></li>
+                         <li class="item2 item3"> <a href="#"style="text-decoration: none;"><span >SESSION 2</span></a></li>
+                       </ul>
+
+                    </li>
+                    <li class="item2"><a href="#"style="text-decoration: none;"><span >JOURNEY OF MEUW</span></a></li>
+                    <li class="item2"><a href="#"style="text-decoration: none;"><span >SUMMER COLLECTION JULY</span></a></li>
+                    <li class="item2"><a href="#"style="text-decoration: none;"><span >PRE-FALL COLLECTION-AUGUST</span></a></li>
+                    <li class="item2"><a href="#"style="text-decoration: none;"><span >MEUWLABS COLLECTION</span></a></li>
+                    <li class="item2"><a href="#"style="text-decoration: none;"><span >MEUW UNIVERSE COLLECTION</span></a></li>
+                    <li class="item2"><a href="#"style="text-decoration: none;"><span >STREET STYLE JUNE 2019</span></a></li>
+                   </ul>
+
+        </li>
+        <li class="item1-hover"><a href="#"class="item1">SẢN PHẨM</a>
+                   <ul style="position: absolute; top: 25px;" class="menusanpham">
+                    <li class="item2 item2-width"><a href="#"style="text-decoration: none;"><span >ÁO THUN</span></a></li>
+                    <li class="item2 item2-width"><a href="#"style="text-decoration: none;"><span >ÁO SƠ MI</span></a></li>
+                    <li class="item2 item2-width"><a href="#"style="text-decoration: none;"><span >PHỤ KIỆN</span></a></li>
+                    <li class="item2 item2-width"><a href="#"style="text-decoration: none;"><span >QUẦN</span></a></li>
+                   </ul>
+        </li>
+        <li class="item1-hover"><a href="4blog.html"class="item1">BLOG</a></li>
+        <li class="item1-hover"><a href="5lienhe.html"class="item1">LIÊN HỆ</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="header-3 ">
+    
+    <a href="6giohang.html"><img src="images-meow/giohang.png"></a>
+    
+  </div>
+</div>
+</div>
+<!-- hết menu scroll -->
+<div class="header row">
+	<div class="header-1 col-md-4"><a href="1trangchu.html">    <img src="images-meow/logo.png"></a></div>
+	<div class="header-2 col-md-4">
+		<div class="timkiem"><form> <input type="text" placeholder="Tìm kiếm..." name="menu-chinh"></form></div>
+		
+		<div class="nuttim"><a href="2timkiem.html"> <i class="fa fa-search" aria-hidden="true"></i>               </a></div>
+		<div class="menu">
+			<ul style="display:flex; position:absolute;z-index: 100;   top:77px;" class="menucap1">
+				<li class="item1-hover"><a href="1trangchu.html" class="item1">TRANG CHỦ</a></li>
+				<li class="item1-hover"><a href="#"class="item1">BỘ SƯU TẬP</a>
+
+                   <ul style=" position: absolute; top: 25px;" class="menucap2">
+                   	<li class="item2"><a href="3bst.html" style="text-decoration: none;color: white;">SPRING SUMMER JAN</a></li>
+                   	<li class="item2"><a href="#"style="text-decoration: none;"><span >TET HOLIDAY 2018</span></a></li>
+                   	<li class="item2"><a href="#"style="text-decoration: none;"><span >SUMMER COLLECTION</span></a>
+                        <!-- thẻ span dùng để giữ được màu chữ trắng hoặc dùng color:white; ở đằng trước nó là như nhau -->
+                       <ul style="position: absolute; top:86px;left: 209px;" class="menucap3"> 
+                         <li class="item2 item3"> <a href="#"style="text-decoration: none;"><span >SESSION 1</span></a></li>
+                         <li class="item2 item3"> <a href="#"style="text-decoration: none;"><span >SESSION 2</span></a></li>
+                       </ul>
+
+                   	</li>
+                    <li class="item2"><a href="#"style="text-decoration: none;"><span >JOURNEY OF MEUW</span></a></li>
+                    <li class="item2"><a href="#"style="text-decoration: none;"><span >SUMMER COLLECTION JULY</span></a></li>
+                    <li class="item2"><a href="#"style="text-decoration: none;"><span >PRE-FALL COLLECTION-AUGUST</span></a></li>
+                    <li class="item2"><a href="#"style="text-decoration: none;"><span >MEUWLABS COLLECTION</span></a></li>
+                    <li class="item2"><a href="#"style="text-decoration: none;"><span >MEUW UNIVERSE COLLECTION</span></a></li>
+                    <li class="item2"><a href="#"style="text-decoration: none;"><span >STREET STYLE JUNE 2019</span></a></li>
+                   </ul>
+
+				</li>
+				<li class="item1-hover"><a href="#"class="item1">SẢN PHẨM</a>
+                   <ul style="position: absolute; top: 25px;" class="menusanpham">
+                   	<li class="item2 item2-width"><a href="#"style="text-decoration: none;"><span >ÁO THUN</span></a></li>
+                   	<li class="item2 item2-width"><a href="#"style="text-decoration: none;"><span >ÁO SƠ MI</span></a></li>
+                   	<li class="item2 item2-width"><a href="#"style="text-decoration: none;"><span >PHỤ KIỆN</span></a></li>
+                   	<li class="item2 item2-width"><a href="#"style="text-decoration: none;"><span >QUẦN</span></a></li>
+                   </ul>
+				</li>
+				<li class="item1-hover"><a href="4blog.html"class="item1">BLOG</a></li>
+				<li class="item1-hover"><a href="5lienhe.html"class="item1">LIÊN HỆ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="header-3 ">
+		<a href="#"><img src="images-meow/call.png"></a>
+		<a href="6giohang.html"><img src="images-meow/giohang.png"></a>
+		<a href="7taikhoan.html"><img src="images-meow/taikhoan.png"></a>
+	</div>
+</div>
+<!-- hết header -->
+<div class="main-page2" style="color: black;background: white;">
+  <div class="thongbao">Tìm thấy 51 kết quả với từ khóa <i style="color: black;"> &quot; áo thun &quot; </i>...</div>
+
+  <div class="row row-page2 ">
+ <div class="col-md-3 hover-page2"><a href="#" ><img src="images-meow/2timkiem/11.png" style="  height: 393px;">
+  <a href="#" class="tentrangphuc">STREET STYLE JUNE 2019 - Áo thun 04</a>
+   <p class="gia">0đ</p>
+   <div class="xemnhanh"><a href="#" class="bg"></a>XEM NHANH</div>
+   </div></a>
+
+ <div class="col-md-3 hover-page2"><a href="#" ><img src="images-meow/2timkiem/22.png" style=" height: 393px;">
+  <a href="#" class="tentrangphuc">STREET STYLE JUNE 2019 - Áo thun 03</a>
+   <p class="gia">0đ</p>
+   <div class="xemnhanh"><a href="#" class="bg"></a>XEM NHANH</div>
+ </div></a>
+
+ <div class="col-md-3 hover-page2"><a href="#" ><img src="images-meow/2timkiem/33.png" style=" height: 393px;">
+  <a href="#" class="tentrangphuc">STREET STYLE JUNE 2019 - Áo thun 02</a>
+   <p class="gia">0đ</p>
+   <div class="xemnhanh"><a href="#" class="bg"></a>XEM NHANH</div>
+ </div></a>
+
+ <div class="col-md-3 hover-page2"><a href="#" ><img src="images-meow/2timkiem/44.png" style=" height: 393px;">
+  <a href="#" class="tentrangphuc">STREET STYLE JUNE 2019 - Áo thun 01</a>
+   <p class="gia">0đ</p>
+   <div class="xemnhanh"><a href="#" class="bg"></a>XEM NHANH</div>
+ </div></a>
+</div>
+
+<hr style="width: 90%; text-align: center;">
+
+<ul style="display: flex;margin-left:1100px; ">
+  <li class="sotrang">1 <div class="baoli"></div></li>
+  <li class="sotrang"><a href="#" class="link">2</a><div class="baoli"></div></li>
+  <li class="sotrang"><a href="#"class="link">3</a><div class="baoli"></div></li>
+  <li class="sotrang">...<div class="baoli"></div></li>
+  <li class="sotrang"><a href="#"class="link">5</a><div class="baoli"></div></li>
+  <li class="sotrang"><a href="#"class="link">>></a><div class="baoli"></div></li>
+</ul>
+
+
+
+<div class="main-3-3">ĐĂNG KÍ NHẬN TIN</div>
+      <div class="main-3-4">Nhập địa chỉ email của bạn để nhận được tin tức mới nhất</div>
+      <div class="main-3-5">
+        <div class="nhapemail" style="display: inline;"><input  type="text" placeholder="Nhập email của bạn..."name="input2"></div>
+        <div class="dangki" style="display: inline;"> <button type="button" class="btn btn-primary dangki">Đăng kí</button></div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="footer">
+	<div class="footer-1 row">
+		<div class="footer-1-a col-md-3">
+			<span class="title-footer">Danh mục</span>
+			<ul>
+				<li class="footer-li"><a href="#">Áo thun</a></li>
+				<li class="footer-li"><a href="#">Áo sơ mi</a></li>
+				<li class="footer-li"><a href="#">Phụ kiện</a></li>
+				<li class="footer-li"><a href="#">Quần</a></li>
+			</ul>
+		</div>
+
+
+				<div class="footer-1-b col-md-3">
+			<span class="title-footer">Liên kết</span>
+			<ul>
+				<li class="footer-li"><a href="#">Sản phẩm khuyến mãi</a></li>
+				<li class="footer-li"><a href="#">Sản phẩm nổi bật</a></li>
+				<li class="footer-li"><a href="#">Tất cả sản phẩm</a></li>
+				<li class="footer-li"><a href="#">Hot sales</a></li>
+			</ul>
+		</div>
+				<div class="footer-1-c col-md-3">
+			<span class="title-footer">Hot tag</span>
+			<ul>
+				<li class="footer-li"><a href="#">Tuần lễ thời trang</a></li>
+				<li class="footer-li"><a href="#">Fall winter 2018</a></li>
+				<li class="footer-li"><a href="#">Blog</a></li>
+				<li class="footer-li"><a href="#">Mr Meuw</a></li>
+			</ul>
+		</div>
+				<div class="footer-1-d col-md-3">
+			<span class="title-footer">Thông tin</span>
+			<ul>
+				<li class="footer-li"><a href="#">Giới thiệu</a></li>
+				<li class="footer-li"><a href="#">Chính sách đổi trả</a></li>
+				<li class="footer-li"><a href="#">Chính sách bảo mật</a></li>
+				<li class="footer-li"><a href="#">Điều khoản dịch vụ</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="footer-2 row">
+		<div class="footer-2-a col-md-3"><a href="http://meuw.vn/"><img src="images-meow/footer.png"></a></div>
+		<div class="footer-2-b col-md-3"><img src="images-meow/footer-1.png">
+               <div class="diachi">Địa chỉ:324-326 Võ Văn Tần, Quận 3, Tp. Hồ Chí Minh.</div>
+		</div>
+		<div class="footer-2-c col-md-3"><img src="images-meow/footer-2.png">
+			<div class="mail">Email: <br>meuwhn@gmail.com</div>
+		</div>
+		<div class="footer-2-d col-md-3"><img src="images-meow/footer-3.png">
+			<div class="phone">Phone: <br>0947 977 772</div>
+		</div>
+	</div>
+	<div class="footer-2-e">
+		<a href="#"><img src="images-meow/footer-2-e-1.png"></a>
+		<a href="#"><img src="images-meow/footer-2-e-2.png"></a>
+		<a href="#"><img src="images-meow/footer-2-e-3.png"></a>
+	</div>
+	<div class="footer-3">
+		<div class="footer-3-1"><img src="images-meow/footer-3-1.png"></div>
+		<div class="footer-3-2">
+			<ul class="footer-ul" style="display: flex;">
+				<li class="footer-li-end"><a href="#">GIỚI THIỆU</a></li>
+				<li class="footer-li-end"><a href="#">CHÍNH SÁCH ĐỔI TRẢ</a></li>
+				<li class="footer-li-end"><a href="#">CHÍNH SÁCH BẢO MẬT</a></li>
+				<li class="footer-li-end"><a href="#">ĐIỀU KHOẢN DỊCH VỤ</a></li>
+			</ul>
+		</div>
+		<div class="footer-3-3">Copyright © 2019 Develop <a href="#" style="color: white;">by 1990.Agency</a></div>
+	</div>
+</div>
+
+
+
+
+
+
+
+  
+	</body>
+</html>

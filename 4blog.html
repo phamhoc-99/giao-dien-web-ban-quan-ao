@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <meta charset="utf-8"/>
+
+    <link rel="stylesheet" href="css/1trangchu.css"/>   
+    <link rel="stylesheet" href="css/3bst.css"/>  
+    <link rel="stylesheet" href="css/4blog.css"/> 
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css"/> 
+    <link rel="stylesheet" type="text/css" href="css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+     
+   
+<style>   /*phải style slick trong trang html này*/
+.slider {width: 100%;
+        margin: 0 auto;}
+
+.slick-dots li button:before {      
+            font-size: 20px;
+            color: white;
+            opacity: 0;}
+.slick-dots li.slick-active button:before {
+    opacity: 1;
+    color: white;}
+
+ul.slick-dots {
+    display: block;
+    position: absolute;
+    top: 950px;}
+.lazy img{                                          
+    max-height: 300px;
+    margin: 20px; 
+}
+.row{margin-right: 0px;}/*cái thanh cuộn ngang do margin-right: -15px; của bootstrap làm bực hết cả người*/
+</style>     
+
+</head>
+<body>
+  <!--  phần menu khi cuộn chuột -->
+    <div id="fix">
+<div class="header-scroll row ">
+  
+<div class="header-2 col-md-4">
+      <div class="timkiem-scroll"><form> <input type="text" placeholder="Tìm kiếm..." name="scroll"></form></div>
+    </div>
+
+  <div class="header-2 col-md-4">
+    <div class="nuttim"><a href="2timkiem.html"> <i class="fa fa-search fa-scroll" aria-hidden="true"></i>               </a></div>
+    <div class="menu">
+      <ul style="display:flex; position:absolute;z-index: 100;   top:25px;" class="menucap1">
+        <li class="item1-hover"><a href="1trangchu.html" class="item1">TRANG CHỦ</a></li>
+        <li class="item1-hover"><a href="#"class="item1">BỘ SƯU TẬP</a>
+
+                   <ul style=" position: absolute; top: 25px;" class="menucap2">
+                    <li class="item2"><a href="3bst.html" style="text-decoration: none;color: white;">SPRING SUMMER JAN</a></li>
+                    <li class="item2"><a href="#"style="text-decoration: none;"><span >TET HOLIDAY 2018</span></a></li>
+                    <li class="item2"><a href="#"style="text-decoration: none;"><span >SUMMER COLLECTION</span></a>
+                        <!-- thẻ span dùng để giữ được màu chữ trắng hoặc dùng color:white; ở đằng trước nó là như nhau -->
+                       <ul style="position: absolute; top:86px;left: 209px;" class="menucap3"> 
+                         <li class="item2 item3"> <a href="#"style="text-decoration: none;"><span >SESSION 1</span></a></li>
+                         <li class="item2 item3"> <a href="#"style="text-decoration: none;"><span >SESSION 2</span></a></li>
+                       </ul>
+
+                    </li>
+                    <li class="item2"><a href="#"style="text-decoration: none;"><span >JOURNEY OF MEUW</span></a></li>
+                    <li class="item2"><a href="#"style="text-decoration: none;"><span >SUMMER COLLECTION JULY</span></a></li>
+                    <li class="item2"><a href="#"style="text-decoration: none;"><span >PRE-FALL COLLECTION-AUGUST</span></a></li>
+                    <li class="item2"><a href="#"style="text-decoration: none;"><span >MEUWLABS COLLECTION</span></a></li>
+                    <li class="item2"><a href="#"style="text-decoration: none;"><span >MEUW UNIVERSE COLLECTION</span></a></li>
+                    <li class="item2"><a href="#"style="text-decoration: none;"><span >STREET STYLE JUNE 2019</span></a></li>
+                   </ul>
+
+        </li>
+        <li class="item1-hover"><a href="#"class="item1">SẢN PHẨM</a>
+                   <ul style="position: absolute; top: 25px;" class="menusanpham">
+                    <li class="item2 item2-width"><a href="#"style="text-decoration: none;"><span >ÁO THUN</span></a></li>
+                    <li class="item2 item2-width"><a href="#"style="text-decoration: none;"><span >ÁO SƠ MI</span></a></li>
+                    <li class="item2 item2-width"><a href="#"style="text-decoration: none;"><span >PHỤ KIỆN</span></a></li>
+                    <li class="item2 item2-width"><a href="#"style="text-decoration: none;"><span >QUẦN</span></a></li>
+                   </ul>
+        </li>
+        <li class="item1-hover"><a href="4blog.html"class="item1">BLOG</a></li>
+        <li class="item1-hover"><a href="5lienhe.html"class="item1">LIÊN HỆ</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="header-3 ">
+    
+    <a href="6giohang.html"><img src="images-meow/giohang.png"></a>
+    
+  </div>
+</div>
+</div>
+
+<!-- hết menu scroll -->
+<div class="header row">
+	<div class="header-1 col-md-4"><a href="1trangchu.html">    <img src="images-meow/logo.png"></a></div>
+	<div class="header-2 col-md-4">
+		<div class="timkiem"><form> <input type="text" placeholder="Tìm kiếm..." name="menu-chinh"></form></div>
+		
+		<div class="nuttim"><a href="2timkiem.html"> <i class="fa fa-search" aria-hidden="true"></i>               </a></div>
+		<div class="menu">
+			<ul style="display:flex; position:absolute;z-index: 100;   top:77px;" class="menucap1">
+				<li class="item1-hover"><a href="1trangchu.html" class="item1">TRANG CHỦ</a></li>
+				<li class="item1-hover"><a href="#"class="item1">BỘ SƯU TẬP</a>
+
+                   <ul style=" position: absolute; top: 25px;" class="menucap2">
+                   	<li class="item2"><a href="3bst.html" style="text-decoration: none;color: white;">SPRING SUMMER JAN</a></li>
+                   	<li class="item2"><a href="#"style="text-decoration: none;"><span >TET HOLIDAY 2018</span></a></li>
+                   	<li class="item2"><a href="#"style="text-decoration: none;"><span >SUMMER COLLECTION</span></a>
+                        <!-- thẻ span dùng để giữ được màu chữ trắng hoặc dùng color:white; ở đằng trước nó là như nhau -->
+                       <ul style="position: absolute; top:86px;left: 209px;" class="menucap3"> 
+                         <li class="item2 item3"> <a href="#"style="text-decoration: none;"><span >SESSION 1</span></a></li>
+                         <li class="item2 item3"> <a href="#"style="text-decoration: none;"><span >SESSION 2</span></a></li>
+                       </ul>
+
+                   	</li>
+                    <li class="item2"><a href="#"style="text-decoration: none;"><span >JOURNEY OF MEUW</span></a></li>
+                    <li class="item2"><a href="#"style="text-decoration: none;"><span >SUMMER COLLECTION JULY</span></a></li>
+                    <li class="item2"><a href="#"style="text-decoration: none;"><span >PRE-FALL COLLECTION-AUGUST</span></a></li>
+                    <li class="item2"><a href="#"style="text-decoration: none;"><span >MEUWLABS COLLECTION</span></a></li>
+                    <li class="item2"><a href="#"style="text-decoration: none;"><span >MEUW UNIVERSE COLLECTION</span></a></li>
+                    <li class="item2"><a href="#"style="text-decoration: none;"><span >STREET STYLE JUNE 2019</span></a></li>
+                   </ul>
+
+				</li>
+				<li class="item1-hover"><a href="#"class="item1">SẢN PHẨM</a>
+                   <ul style="position: absolute; top: 25px;" class="menusanpham">
+                   	<li class="item2 item2-width"><a href="#"style="text-decoration: none;"><span >ÁO THUN</span></a></li>
+                   	<li class="item2 item2-width"><a href="#"style="text-decoration: none;"><span >ÁO SƠ MI</span></a></li>
+                   	<li class="item2 item2-width"><a href="#"style="text-decoration: none;"><span >PHỤ KIỆN</span></a></li>
+                   	<li class="item2 item2-width"><a href="#"style="text-decoration: none;"><span >QUẦN</span></a></li>
+                   </ul>
+				</li>
+				<li class="item1-hover"><a href="4blog.html"class="item1">BLOG</a></li>
+				<li class="item1-hover"><a href="5lienhe.html"class="item1">LIÊN HỆ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="header-3 ">
+		<a href="#"><img src="images-meow/call.png"></a>
+		<a href="6giohang.html"><img src="images-meow/giohang.png"></a>
+		<a href="7taikhoan.html"><img src="images-meow/taikhoan.png"></a>
+	</div>
+</div>
+<!-- hết header -->
+<!-- main -->
+<div class="main-page4 row">
+
+  <div class="main-left col-md-9">
+    <div class="blog"><img src="images-meow/4blog/1.png"><a href="#" class="link-blog"> BLOG</a></div>
+                
+                                       
+    <div class="tieude1"><img src="images-meow/4blog/2.png"> BINZ “CHẤT CHƠI” CÙNG DÀN SAO “NAM THẦN” CUỐN HÚT TRONG SỰ KIỆN RA MẮT MEUW MENSWEAR TẠI HẢI PHÒNG</div>
+    <div class="nguon">
+      <div class="dangboi">Đăng bởi: Ngo Dũng </div>
+      <div class="ngay">31/10/2019</div>
+    </div>
+    <div class="anhlon"><img class="anhlon-img" src="images-meow/4blog/3.png"></div>
+    <div class="tenanhlon">Thương hiệu thời trang được hàng loạt “nam thần” showbiz Việt yêu thích trong hai năm vừa qua, Meuw Menswear đã chính thức đổ bộ đến Hải Phòng.Trong buổi khai trương showroom đầu tiên tại phía Bắc,...</div>
+    <div class="xemthem-page4"><button type="button" class="btn btn-primary nutanhlon-page4">Xem Thêm</button></div>
+    <hr style="width: 100%; text-align: center;">
+  </div>
+
+  <div class="main-right col-md-3">
+    <div class="tk">Tìm Kiếm</div>
+    <hr style="width: 100%; text-align: center;">
+    <input type="text" name="" placeholder="Nhập nội dung tìm kiếm..." style="width: 100%;font-size: 15px;">
+      <a href="#"><img src="images-meow/4blog/4.png" class="nuttimbenphai"></a>
+    <div class="baivietmoinhat">Bài Viết Mới Nhất</div>
+     <hr style="width: 100%; text-align: center;">
+<a href="#"class="bohover"><p>Binz “chất chơi” cùng dàn sao “nam thần” cuốn hút trong sự kiện ra mắt Meuw Menswear tại Hải Phòng</p></a>
+<a href="#"class="bohover"><p>TRỌNG HIẾU SPORTY, B TRẦN LỊCH LÃM CÙNG JAY QUÂN HẦM HỐ XUẤT HIỆN TẠI SỰ KIỆN THỜI TRANG CỦA MEUW MENSWEAR</p></a>
+<a href="#"class="bohover"><p>Phong cách nổi bật của dàn sao Việt trong trang phục Meuw Menswear</p></a>
+<a href="#"class="bohover"><p>Đón đầu xu hướng streetwear mùa mới với BST 'chất lừ' của thương hiệu Meuw Menswear</p></a>
+     <a href="#"><img class="anhle" src="images-meow/4blog/5.png"></a>
+     <div class="tags">Tags</div>
+     <hr style="width: 100%; text-align: center;">
+     <button type="button" class="btn btn-primary abc">THỜI TRANG</button>
+     <button type="button" class="btn btn-primary abc">Fall Winter 2018</button>
+     <button type="button" class="btn btn-primary abc">Xu Hướng Thời Trang</button>
+     <button type="button" class="btn btn-primary abc">Thời Trang Việt</button>
+     <button type="button" class="btn btn-primary abc">HOÀNG THÙY</button>
+     <button type="button" class="btn btn-primary abc">MEUW GENE</button>
+     <button type="button" class="btn btn-primary abc">I AM WHAT I AM</button>
+     <button type="button" class="btn btn-primary abc">Meuw Menswear </button>
+     <button type="button" class="btn btn-primary abc">KỲ DUYÊN</button>
+     <button type="button" class="btn btn-primary abc">Show Thời Trang Chung Thanh Phong</button>
+     <button type="button" class="btn btn-primary abc">Noo Phước Thịnh</button>
+     <button type="button" class="btn btn-primary abc">CHUNG THANH PHONG</button>
+     <button type="button" class="btn btn-primary abc">Thời Trang Việt Nam</button>
+     <button type="button" class="btn btn-primary abc">BỘ SƯU TẬP</button>
+     <button type="button" class="btn btn-primary abc">THANH HẰNG</button>
+     <button type="button" class="btn btn-primary abc">MINH TÚ</button>
+     <button type="button" class="btn btn-primary abc">Tuần Lễ Thời Trang Quốc Tế Việt Nam</button>
+     <button type="button" class="btn btn-primary abc">JOURNEY OF MEUW</button>
+  </div>
+</div>
+<!-- hết main --> 
+
+<div class="main-3-3">ĐĂNG KÍ NHẬN TIN</div>
+      <div class="main-3-4">Nhập địa chỉ email của bạn để nhận được tin tức mới nhất</div>
+      <div class="main-3-5">
+        <div class="nhapemail" style="display: inline;"><input  type="text" placeholder="Nhập email của bạn..."name="input2"></div>
+        <div class="dangki" style="display: inline;"> <button type="button" class="btn btn-primary dangki">Đăng kí</button></div>
+      </div>
+
+
+<div class="footer">
+	<div class="footer-1 row">
+		<div class="footer-1-a col-md-3">
+			<span class="title-footer">Danh mục</span>
+			<ul>
+				<li class="footer-li"><a href="#">Áo thun</a></li>
+				<li class="footer-li"><a href="#">Áo sơ mi</a></li>
+				<li class="footer-li"><a href="#">Phụ kiện</a></li>
+				<li class="footer-li"><a href="#">Quần</a></li>
+			</ul>
+		</div>
+
+
+				<div class="footer-1-b col-md-3">
+			<span class="title-footer">Liên kết</span>
+			<ul>
+				<li class="footer-li"><a href="#">Sản phẩm khuyến mãi</a></li>
+				<li class="footer-li"><a href="#">Sản phẩm nổi bật</a></li>
+				<li class="footer-li"><a href="#">Tất cả sản phẩm</a></li>
+				<li class="footer-li"><a href="#">Hot sales</a></li>
+			</ul>
+		</div>
+				<div class="footer-1-c col-md-3">
+			<span class="title-footer">Hot tag</span>
+			<ul>
+				<li class="footer-li"><a href="#">Tuần lễ thời trang</a></li>
+				<li class="footer-li"><a href="#">Fall winter 2018</a></li>
+				<li class="footer-li"><a href="#">Blog</a></li>
+				<li class="footer-li"><a href="#">Mr Meuw</a></li>
+			</ul>
+		</div>
+				<div class="footer-1-d col-md-3">
+			<span class="title-footer">Thông tin</span>
+			<ul>
+				<li class="footer-li"><a href="#">Giới thiệu</a></li>
+				<li class="footer-li"><a href="#">Chính sách đổi trả</a></li>
+				<li class="footer-li"><a href="#">Chính sách bảo mật</a></li>
+				<li class="footer-li"><a href="#">Điều khoản dịch vụ</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="footer-2 row">
+		<div class="footer-2-a col-md-3"><a href="http://meuw.vn/"><img src="images-meow/footer.png"></a></div>
+		<div class="footer-2-b col-md-3"><img src="images-meow/footer-1.png">
+               <div class="diachi">Địa chỉ:324-326 Võ Văn Tần, Quận 3, Tp. Hồ Chí Minh.</div>
+		</div>
+		<div class="footer-2-c col-md-3"><img src="images-meow/footer-2.png">
+			<div class="mail">Email: <br>meuwhn@gmail.com</div>
+		</div>
+		<div class="footer-2-d col-md-3"><img src="images-meow/footer-3.png">
+			<div class="phone">Phone: <br>0947 977 772</div>
+		</div>
+	</div>
+	<div class="footer-2-e">
+		<a href="#"><img src="images-meow/footer-2-e-1.png"></a>
+		<a href="#"><img src="images-meow/footer-2-e-2.png"></a>
+		<a href="#"><img src="images-meow/footer-2-e-3.png"></a>
+	</div>
+	<div class="footer-3">
+		<div class="footer-3-1"><img src="images-meow/footer-3-1.png"></div>
+		<div class="footer-3-2">
+			<ul class="footer-ul" style="display: flex;">
+				<li class="footer-li-end"><a href="#">GIỚI THIỆU</a></li>
+				<li class="footer-li-end"><a href="#">CHÍNH SÁCH ĐỔI TRẢ</a></li>
+				<li class="footer-li-end"><a href="#">CHÍNH SÁCH BẢO MẬT</a></li>
+				<li class="footer-li-end"><a href="#">ĐIỀU KHOẢN DỊCH VỤ</a></li>
+			</ul>
+		</div>
+		<div class="footer-3-3">Copyright © 2019 Develop <a href="#" style="color: white;">by 1990.Agency</a></div>
+	</div>
+</div>
+
+
+ <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script src="js/Scripts của slick/jquery-1.10.2.js"></script>     <!-- 3 dòng này đúng thứ tự -->
+    <script src="js/Scripts của slick/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/Scripts của slick/slick.min.js"></script>
+<!-- phần menu khi cuộn chuột -->
+  <script type="text/javascript">jQuery(document).ready(function($) {   
+  var TopFix = $("#fix");//selector đến menu cần làm việc
+    $(window).scroll(function(){// dùng sự kiện cuộn chuột để bắt thông tin đã cuộn được chiều dài là bao nhiêu.
+        if($(this).scrollTop()>150){  // Nếu cuộn được hơn 150px rồi                                            
+        TopFix.show();// Tiến hành show menu ra
+         }
+        else{TopFix.hide();// Ngược lại, nhỏ hơn 150px thì hide menu đi.   
+          }})     
+  })
+</script>
+<!--  hết js phần menu khi cuộn chuột -->
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>     
+<!-- stackoverflow bảo phải để file này thay cho bootstrap.js và phải đứng sau popper.js -->
+  </body>
+</html>
+
+
+
+
+

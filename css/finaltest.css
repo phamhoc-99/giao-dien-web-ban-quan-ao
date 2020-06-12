@@ -1,0 +1,151 @@
+.header-1-l{
+	display: inline-flex;
+	padding-left: 200px;
+}
+.header-1-r{
+	display: inline-flex;
+	padding-right: 200px;
+	float: right;
+}
+.ul {
+	display: inline-flex;
+	list-style-type: none;
+}
+ .header-1{ 
+	background: #262626;
+	color: white;
+}
+.header-1{
+	padding: 15px 0;
+}
+@font-face {
+	font-family: 'Lato-Black.ttf';
+	src: url("Lato-Black.ttf");
+}
+@font-face {
+	font-family: 'ReklameScript-Regular_DEMO.otf';
+	src: url("ReklameScript-Regular_DEMO.otf");
+}
+/*chưa lấy được font*/
+.ul li a:hover{
+	color: red;
+	text-decoration: none;
+}
+.link{
+	text-decoration: none;
+	color: white;
+}
+.ul li{
+	margin: 0 10px;
+}
+ .header-2{ 
+	background: #2a2a2a;
+	color: white;
+	text-align: center;
+}
+.header-2-1 .header-2-2{
+	display: inline-flex;
+}
+.weare{
+	font-size: 28pt;
+}
+.webpaint{
+	font-size: 28pt;
+}
+.btn{
+	margin: 40px 0;
+	background: #ff6760;
+}
+.form-group{
+	padding: 0 200px; 
+}
+.main-1{
+	background: #f8f8f8;
+}
+.a {text-align: center;}
+.b {text-align: center;}
+.c {text-align: center;}
+.our{text-align: center;
+font-size: 30pt;
+font-family: 'Lato-Black'}
+.cura{text-align: center;}
+.button{text-align: center;}
+.all{background: #595959;}
+.main-3{text-align: center;
+	padding: 0 200px; 
+	padding-bottom: 100px;
+}
+.container{height: 577px;}
+
+
+@media(max-width: 767px) {
+.main-3{padding: 0px;}
+.header-1-r{/*padding-right: 0;*/ /*text-align:center;*/
+	float: none; 
+	/*width: 100%;*/ display:  initial;}
+.form-group{padding: 0;}
+.header-1-l{/*padding-left: 0;*/ text-align: center;display: flex;}
+.link{display:block;  width: 100%;}
+.ul{display:  inline-block;    /*padding-left: 0;*/ text-align: center;}
+.weare{width: 100%;}
+}
+
+
+.footer{
+	color: white;
+	background: #313131;
+	text-align: center;
+}
+.get{
+	font-family: 'Lato-Black';
+	font-size: 20pt;
+	padding-top: 100px;
+	padding-bottom: 10px;
+}
+.vest{
+	color: gray;
+	font-size: 14pt;
+	padding-bottom: 10px;
+}
+.moom{
+	color: gray;
+}
+.fa-map-marker-alt,.fa-phone{
+	color: #ff6760;
+}
+.rss{
+height: 40px;
+width: 40px;	
+}
+.tt{
+	border-radius: 500px;
+	height: 40px;
+    width: 40px;
+}
+.fb{
+	border-radius: 500px;
+	height: 40px;
+    width: 40px;
+}
+.p{
+	border-radius: 500px;
+	height: 40px;
+    width: 40px;
+}
+.icon{
+	margin: 0 5px;
+}
+.maycaiicon{
+	padding-bottom: 50px;
+	padding-top: 20px;
+	display: inline-flex;
+}
+.footer-b{
+	background: #2c2c2c;
+	padding:50px 0; 
+	color: gray;
+}
+.ebpaint{
+	font-size: 14pt;
+	font-family: 'ReklameScript-Regular_DEMO';
+}

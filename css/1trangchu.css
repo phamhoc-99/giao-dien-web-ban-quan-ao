@@ -1,0 +1,364 @@
+ul li {
+  list-style: none;}
+ul li a
+    {color: white;}
+ .link{
+  	text-decoration: none;
+  margin: 0 4px;}
+.footer{
+background: black;
+color: white;
+}  	
+.header {
+	background: #404040;
+	height: 122.05px;
+	padding-left: 10px;
+}
+/*menu scroll*/
+.header-scroll {
+    background: #404040;
+    height: 75px;
+    padding-left: 10px;
+     position: fixed;
+     width: 101%;
+     right: 0;
+     z-index: 200;
+}
+#fix{display: none;}
+
+input[name="scroll"]{
+    width: 210px;
+    border: none;
+
+        background: #404040;
+    font-size: 12px;
+    line-height: 28px;
+    color: #999;
+        font-weight: 700;
+padding-left: 12px;
+}
+.timkiem-scroll{
+    
+    padding-top: 20px;
+    padding-bottom:20px;
+    padding-left: 100px;
+    padding-right: 200px;
+}
+.header-1 a img{
+	padding: 35px 10px 10px 115px;}
+input[name="menu-chinh"]{
+	width: 360px;
+	border: 2px solid #D5D5D5;
+    border-radius: 19px;
+    background: #404040;
+    font-size: 12px;
+    line-height: 28px;
+    color: #999;
+        font-weight: 700;
+padding-left: 12px;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+    color: white;
+}
+.timkiem{
+	padding:20px 45px; 
+}
+.fa, .fas {
+    font-weight: 900;
+    position: absolute;
+    top: 29px;
+    right: 50px;
+}
+
+
+i.fa.fa-search.fa-scroll {
+    position: absolute;
+    left: -160px;
+}
+ul {
+    padding: 0;
+}
+
+/*menucap1*/
+.item1 
+{margin-right: 12px;
+    font-size: 17px;}
+
+.item1:hover{
+	 color: white;}
+
+/*menucap2*/            
+.item2{
+background: #3D3D3C;
+font-size: 13px;  
+border-bottom: 0.1px solid gray; 
+text-decoration: none;
+padding: 12px ;
+opacity: 0.8;}
+.menucap2{
+	display: none;} 
+.item1-hover:hover .menucap2{
+ 	display: block;
+     transition: all 3s ease-out 3s;
+      }
+.item1-hover:hover .menucap3{
+ 	display: none;}
+/*menucap3*/
+.item3{
+	width: 200px;}
+.item2:hover .menucap3{                          
+	background: #202020;
+	opacity: 1;
+    display: block;}
+/*menusanpham*/
+.item2-width{
+	width: 200px;
+
+} 
+.menusanpham{
+	display: none;
+}   
+.item1-hover:hover .menusanpham{
+	display: block;
+}
+.item2:hover {   /* dùng để tạo background đen  khi hover vào từng item nhỏ*/                           
+	background: #202020;
+}
+/*hết phần header có ul li-------------*/
+.header-3{
+	position: absolute;
+	right: 80px;
+	top: 10px
+}
+.col-md-6{padding: 30px 0px;}
+.cssbanner{
+	padding: 0 120px;
+}
+.title3, .title1{  
+	position: absolute;
+    top: 330px;
+    left: 258px;}
+.title2 ,.title4{
+    position: absolute;
+    top: 330px;
+    right: 258px;}
+.title-top{
+	/*font-weight: bold;*/
+	font-size: 24px;
+}    
+.title-bot{
+	font-size: 14px;
+	margin-left: 20px;
+	margin-top: 5px;
+}  
+
+.col-md-6 img:hover {
+    transform: scale(1.1);
+    overflow: hidden;                  /*phần tràn ra sẽ bị mất .nhưng nó vẫn ko mất*/   
+    transition: all 4s;
+}
+.main-3-1{
+	font-family: 'SVN-Veneer';
+	font-size: 40px;
+	color: #333a3d;
+	text-align: center;
+	border-bottom: 3px solid #3a3a3a;
+	display: inline;
+    margin: 0 500px;
+}
+@font-face {
+	font-family: 'SVN-Veneer';
+	src: url("SVN-Veneer.ttf");
+}
+.main-3-3{
+	font-family: 'SVN-Veneer';
+	font-size: 40px;
+	color: #333a3d;
+	text-align: center;
+	border-bottom: 3px solid #3a3a3a;
+	display: inline;
+    margin: 0 550px;
+}
+.slick-prev{
+	position: absolute;
+	left: 10px;
+}
+.slick-next{
+	position: absolute;
+	right: 10px;
+}
+.main-3-4{color: black;                       
+    font-size: 20px;
+    color: #484848;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top:50px; }
+.main-3-5{text-align: center;
+padding-bottom:70px; }
+
+
+/*lazy-slide */
+button.slick-prev.slick-arrow{position: absolute;
+    left: 60px;
+z-index: 100;}
+button.slick-next.slick-arrow{position: absolute;
+    right: 60px;
+z-index: 100;}
+.explain{
+    position: absolute;    
+    right: 100px;
+    top: 3050px;
+    width: 300px;
+    color: white;
+    text-align: center;
+}
+.lazy-text{ 
+    position: absolute;    
+    right: 100px;
+    top: 400px;
+    width: 300px;
+    color: white;
+    margin-right: 10px;
+    }
+    /*không thể select để hover được ???*/
+.lazy-hover{display: none;}            
+.lazy img:hover .lazy-hover{display: block;}
+      
+    .nen{
+        width: 300px;
+        height: 100px;
+        background: black;
+        opacity: 0.5;
+        position: absolute;
+        right: 100px;
+        top: 3050px;
+    }
+    .lazy-nen{
+        width: 320px;
+        height: 230px;
+        background: black;
+        opacity: 0.5;
+        position: absolute;
+        right: 100px;
+        top: 380px;
+    }
+    .ngay{margin-top: 10px;}
+    
+    .ngay1{margin-top: 10px;}
+        .nen1{
+        width: 300px;
+        height: 100px;
+        background: black;
+        opacity: 0.5;
+        position: absolute;
+        right: 540px;
+        top: 3050px;}
+    .explain1{
+    position: absolute;    
+    right: 540px;
+    top: 3050px;
+    width: 300px;
+    color: white;
+    text-align: center;}
+
+    .ngay2{margin-top: 10px;}
+        .nen2{
+        width: 300px;
+        height: 100px;
+        background: black;
+        opacity: 0.5;
+        position: absolute;
+        right: 1000px;
+        top: 3050px;}
+    .explain2{
+    position: absolute;    
+    right: 1000px;
+    top: 3050px;
+    width: 300px;
+    color: white;
+    text-align: center;}
+/* hết lazy-slide*/
+
+button.btn.btn-primary.dangki {
+    background: black;
+    width: 110px;
+    height: 50px}
+input[name="input2"] {                     
+    border-radius: 4px;
+    border: none;
+    border-bottom: 1px solid #e5e5e5;
+    color: #666;
+    height: 48px;
+    line-height: 48px;
+    max-width: 100%;
+    padding: 0 10px;
+    width: 435px;
+    background: white;
+    font-size: 13px;
+}
+
+.footer-1 {padding-top: 70px;
+    padding-left: 100px;
+padding-bottom: 70px;
+border-bottom: 1px solid gray;}
+
+.title-footer {
+    display: inline-block;
+    margin-bottom: 25px;}
+
+  
+.footer-li {
+    font-family: sans-serif;
+    color: white;
+    margin: 4px 0px;
+    font-size: 14px;
+}
+.footer-li:hover a{color: white;}    
+
+.footer-2{padding-top: 50px;}    
+.footer-2-a img{
+	padding-left:  100px;
+	
+}   
+.diachi{display: inline-block;max-width: 250px;} 
+.mail {display: inline-block;}
+.phone{display: inline-block;}
+.footer-2-e{text-align: center;border-bottom: 1px solid gray;padding-bottom: 10px;}
+.footer-3-1{text-align: center;padding-top: 10px;padding-bottom: 30px;}
+ul.footer-ul{    padding-left: 390px;}
+.footer-li-end{ border-right:1px solid white;}
+.footer-li-end a:hover{color: white;}
+ .footer-li-end a{margin: 10px 20px; font-size: 12px;}
+ .footer-li-end:last-child{border-right: none;}
+ .footer-3-3{text-align: center;padding-bottom: 50px; font-size: 14px;}
+
+ /*xóa thanh trượt ngang vô duyên*/
+ /*.row{margin-right: 0px;}*/
+ @media(max-width: 767px) {
+
+    input[type="text"] {
+    width: 560px;
+    z-index: 1000;}
+
+    body { width: 700px;}                //cái này ko nhận nữa ,thì lại dùng max-width
+   
+
+
+.header-3 {
+    position: fixed;}
+
+img.res { margin: 0 67px;}
+
+.header.row{height: 300px;}
+
+img.res-logo{padding-left: 236px;
+             padding-top: 100px;}
+
+   
+
+
+
+
+
+ } 

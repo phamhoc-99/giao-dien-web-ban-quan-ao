@@ -1,0 +1,26 @@
+.dangnhapbang{color: black;text-align: center;padding-top: 50px;}
+button.btsocialloginfb ,button.btsociallogingg{
+    border-radius: 30px;border: none;width: 100px;margin-top: 15px;margin-bottom: 15px;}
+.cangiua{text-align: center;}
+button.btsocialloginfb:hover{opacity: 0.5;transition: all 0.3s ease-out 0s;}   /*tốc độ hiện lên*/
+button.btsociallogingg:hover{opacity: 0.5;transition: all 0.3s ease-out 0s;}   /*tốc độ hiện lên*/
+.main{padding: 0 200px;
+}
+.hoac{position: absolute;right: 650px;top: 260px;}   
+.dangnhap,.dangkithanhvienmoi{color: black;text-align: center;padding-bottom: 10px;}
+input[type="email"] ,input[type="password"]{
+    width: 100%;
+    margin: 10px 0; 
+    background: #F2F2F2;
+    border: none;
+}
+.a{    width: 100%;
+    margin: 10px 0;
+    background:  #F2F2F2;border: none;}
+.quenmatkhau{text-align: center;text-decoration: underline;font-size: 14px;margin-top: 10px;}
+.bentrong{color: black;}
+.bentrong:hover{color: black;}
+.c{color: black;height: 40px;font-size: 14px;background: white;border: 1px solid black;}
+button:hover{background: black;color: white;border:black;  transition: all 0.3s ease-out 0s;}
+.col-md-6{padding: 10px 15px;}
+input[name="b"]{font-size: 15px;padding-left: 50px;padding-top: 5px;padding-bottom: 5px;} 

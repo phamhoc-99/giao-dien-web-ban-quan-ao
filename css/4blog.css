@@ -1,0 +1,35 @@
+a.link-blog{color: black;font-size: 14px;}
+a.link-blog:hover{text-decoration: none;color: black;}
+.blog{text-align: center;margin-top: 80px;}
+.tieude1{color: black;font-size: 28px;font-weight: 500;}
+.main-page4.row {
+    margin: 0 80px;}
+.dangboi{color: black;display: inline-block; border-right: 1px solid black; margin-right: 20px; padding-right: 20px;}
+.ngay{color: black;display: inline-block;}
+.nguon{text-align: center;font-size: 13px;}
+.anhlon-img{width: 847px;height: 565px;margin-top: 20px;}
+.tenanhlon{color: black;text-align: center;font-size: 14px;margin-bottom: 20px;}
+button.btn.btn-primary.nutanhlon-page4{background: black;font-size: 14px;}
+.xemthem-page4{text-align: center;margin-bottom: 100px;}
+/*bắt đầu style cột bên phải*/
+.tk{color: black;font-size: 35px;margin-top: 60px;font-weight: 400;}
+img.nuttimbenphai {
+    position: absolute;
+    right: 17px;
+    top: 149px;
+}
+.baivietmoinhat{color: black;font-size: 34px;margin-top: 30px;font-weight: 400;}
+p{color: black;font-size: 14px;}
+.bohover:hover{text-decoration: none;}
+.anhle:hover{       
+	transform: scale(1.1);                  
+    transition: all 2s;}
+.tags{color: black;font-size: 34px;margin-top: 30px;font-weight: 400;}
+button.btn.btn-primary.abc {
+    background: #EBEBEB;
+    border: 1px solid #EBEBEB;
+    color: black;
+    font-size: 13px;
+    margin-top: 10px;
+}
+button.btn.btn-primary.abc:hover{background: black;color: white;} 

@@ -1,0 +1,17 @@
+.giohang{color: black;font-size: 36px;padding-top: 40px;}
+.main{padding: 0 100px;}
+.anh{text-align: center;}
+.tieudeanh{color: black;text-align: center;font-size: 14px;}
+.row.lienlac {
+    padding-top: 40px;
+}
+button.btn.btn-dark {
+    background: black;
+    border-radius: 30px;
+    width: 220px;
+    height: 50px;
+
+}
+.col {
+    text-align: center;padding-bottom: 80px;
+}

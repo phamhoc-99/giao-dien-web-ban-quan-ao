@@ -1,0 +1,32 @@
+.border{
+	border: 1px solid gray;
+	padding-top: 10px;	
+	padding-bottom: 10px;	
+	
+}
+.page{
+	margin-top: 20px;
+
+}
+.header{
+	text-align:center;
+	background: #feffed; 
+	font-weight: bold;
+}	
+.footer{
+	font-weight: bold;
+	background: #ffd662;
+}
+.mauchu{
+color: white;}
+.menu{
+	display: flex;
+	background: green;
+
+	padding: 10px 10px;
+}
+.item{
+	padding: 0px 10px;
+		color: white;
+		text-decoration: none;
+}

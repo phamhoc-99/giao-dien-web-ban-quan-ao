@@ -1,0 +1,16 @@
+.lienhe{
+	font-family: 'SVN-Veneer';
+	font-size: 40px;
+	color: #333a3d;
+	text-align: center;
+	    margin: 50 550px;
+padding-top: 100px;
+}
+.giaithich{color: #000;text-align: center;font-size: 14px;}	
+.col-md-3{color: black;font-size: 14px;margin-top: 50px;margin-bottom: 30px;}
+i.fa.fa-home{color: black;}
+.lienlac.row{padding: 0 200px;}
+.col-md-3.stylecaicuoi{text-align: right;}
+.col-md-3.thu2{text-align: center;}
+button.btn.btn-dark{width: 140px;height: 50px; border-radius: 20px;}
+button.btn.btn-dark:hover{background: black;}

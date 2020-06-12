@@ -1,0 +1,35 @@
+.b9 .btn-submit{
+width: 100%;
+}
+.b9{
+	background: #f8f9fa;
+}
+.container{
+	display: inline-flex;
+	max-width: 100%;
+}
+.sl{
+	background: gray;
+	width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    float: right;
+    font-size: 30px;
+    color: white;
+    padding-left: 12px;
+}
+.a{
+    background: white;
+    
+}
+.b{
+   border: 1px solid black; 
+}
+@media(max-width: 767px) {
+.container{
+    display: block;
+    max-width: 100%;
+}
+}
+
+

@@ -1,0 +1,97 @@
+ ul li {
+  list-style: none;}
+ul li a
+    {color: white;}
+ .link{
+  	text-decoration: none;
+  margin: 0 4px;}
+.footer{
+	background: black;
+	color: white;
+}  	
+.header {
+	background: #404040;
+	height: 122.05px;
+	padding-left: 10px;
+}
+.header-1 a img{
+	padding: 35px 10px 10px 115px;}
+input[type="text"]{
+	width: 360px;
+	border: 2px solid #D5D5D5;
+    border-radius: 19px;
+    background: #404040;
+    font-size: 12px;
+    line-height: 28px;
+    color: #999;
+        font-weight: 700;
+padding-left: 12px;
+}
+*, ::after, ::before {                                  /*    do cái này*/
+    box-sizing: border-box;
+    color: white;
+}
+.timkiem{
+	padding:20px 45px; 
+}
+.fa, .fas {
+    font-weight: 900;
+    position: absolute;
+    top: 29px;
+    right: 50px;
+}
+ul {
+    padding: 0;
+}
+
+/*menucap1*/
+.item1 
+{margin-right: 12px;
+    font-size: 17px;}
+
+.item1:hover{
+	 color: white;}
+
+/*menucap2*/            
+.item2{
+background: #3D3D3C;
+font-size: 13px;  
+border-bottom: 0.1px solid gray; 
+text-decoration: none;
+padding: 12px ;
+opacity: 0.8;}
+.menucap2{
+	display: none;} 
+.item1-hover:hover .menucap2{
+ 	display: block;
+     transition: all 3s ease-out 3s;
+      }
+.item1-hover:hover .menucap3{
+ 	display: none;}
+/*menucap3*/
+.item3{
+	width: 200px;}
+.item2:hover .menucap3{                          
+	background: #202020;
+	opacity: 1;
+    display: block;}
+/*menusanpham*/
+.item2-width{
+	width: 200px;
+
+} 
+.menusanpham{
+	display: none;
+}   
+.item1-hover:hover .menusanpham{
+	display: block;
+}
+.item2:hover {   /* dùng để tạo background đen  khi hover vào từng item nhỏ*/                           
+	background: #202020;
+}
+/*hết phần header có ul li-------------*/
+.header-3{
+	position: absolute;
+	right: 80px;
+	top: 10px
+}

@@ -1,0 +1,98 @@
+/*absulute ăn theo relative
+absolute:chiếm lại phần cái khác chạy đi
+ relative: các phần tử xq ko chiếm vị trí bỏ lại
+position chỉ chiếm vừa đủ nd bên trong*/
+
+
+
+.bt1 .container {
+    background: #00c4ff;
+    padding: 15px 100px 30px 100px;
+    max-width: 800px;
+}
+
+.bt1 .header {
+    background: #fff;
+}
+
+.bt1 .heading {
+    font-size: 22px;
+    padding: 5px 30px;
+    margin-bottom: 5px;
+}
+
+.bt1 .img-responsive {
+    width: 100%;
+}
+
+.bt1 .main {
+    padding: 30px;
+    background: #fff;
+}
+
+.bt1 fieldset {
+    border: 1px solid blue;
+    padding: 5px 20px;
+}
+
+.bt1 legend {
+    font-size: 16px;
+    width: auto;
+    color: blue;
+}
+
+.bt1 input, .bt1 textarea {
+    border: none;
+    margin-top: -18px;
+}
+
+.bt1 input:focus, .bt1 textarea:focus {
+    box-shadow: none;
+}
+
+.bt1 .no-of-guest {
+    color: blue;
+}
+
+#result, #error {
+    margin-top: 60px;
+}
+
+.bt1 input[type=number] {
+    margin: 0;
+    display: inline;
+    width: 55px;
+    border: 1px solid blue;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.bt1 .main {
+    position: relative;
+}
+
+.bt1 .btn-submit {
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.bt1 button[type=submit] {
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.bt1 .footer {
+    text-align: center;
+    color: #fff;
+    margin-top: 30px;
+}
+
+@media(max-width: 767px) {
+    .bt1 .container {
+        padding: 0;
+    }
+}
+
